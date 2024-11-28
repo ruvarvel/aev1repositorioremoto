@@ -55,6 +55,24 @@ if ($_SESSION['letras_acertadas'] == $_SESSION['palabra']) {
 <head>
     <meta charset="UTF-8">
     <title>Ahorcado</title>
+    <style>
+        /* Añadir color de fondo rosa pastel */
+        body {
+            background-color: #FFD1DC; /* Código hexadecimal para rosa pastel */
+            font-family: Arial, sans-serif; /* Estilo de fuente adicional */
+            color: #333; /* Color del texto para buen contraste */
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #B22222; /* Rojo oscuro para el título */
+        }
+
+        form {
+            margin-top: 20px;
+        }
+    </style>
 </head>
 <body>
     <h1>Juego del Ahorcado</h1>
